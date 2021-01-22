@@ -1,0 +1,6 @@
+/student_repos
+/coding_standard*
+/lab*
+*.pyc
+*.txt
+
