@@ -18,7 +18,6 @@ from paths import (
     GITHUB_INDIVIDUAL_CSV_PATH,
     LEARNING_SUITE_PATH,
 )
-import runner
 import config
 
 # Here is the list of the lab names
