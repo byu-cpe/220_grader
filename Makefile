@@ -1,5 +1,5 @@
 install:
-	python3 -m pip install pandas
+	pip3 install pandas
 	git submodule init
 	git submodule update
 

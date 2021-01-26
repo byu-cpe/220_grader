@@ -5,10 +5,9 @@ This script helps with streamlining TA grading of assignments.  For full automat
 2. If from github, each student has to have a github repo where their work is.  They must use the right directory structure so the scripts can navigate and find it.
 
 # Installation and Running Sample Dataset
-You likely have already cloned this repo but here is the whole set of steps:
+You likely have already cloned this repo. Next follow the steps listed in `INSTALL.md`.  Then, here is the complete set of steps"
 
 ```
-git clone https://github.com/byu-cpe/220_grader
 cd 220_grader
 make install
 make sample
