@@ -121,12 +121,13 @@ def RunLab(lab_name, student_code_path, build, run, first_names, last_names, net
     # Add student homework_id to bottom of file in preparation for correcting
     feedback = ROOT_PATH / (lab_name + ".fdbk")
     with open(feedback, "a") as f:
-        f.write("\n######################################\n")
-        f.write("Student_name = {} {} ({})\n".format(first_names[0], last_names[0], net_ids[0]))
+        f.write("######################################\n")
+        f.write("Student_name = {} {} ({})\n".format(last_names[0], first_names[0], net_ids[0]))
         f.write("Homework_id = {}\n".format(homework_id[0]))
         f.write("Feedback = \n")
-    os.system("code --wait -g {} {}:1000".format(student_code_path, feedback))
-    print("Done with callback...")
+        f.write("######################################\n")
+    #os.system("code --wait -g {} {}:1000".format(student_code_path, feedback))
+    #print("Done with callback...")
 
 # The main routine
 def main():
